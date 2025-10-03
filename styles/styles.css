@@ -30,3 +30,16 @@ figcaption {
   font-style: italic;
   text-align: center;
 }
+.done {
+  color: rgb(17, 30, 17);
+  text-decoration: line-through solid black 2px;
+}
+li {
+  cursor: pointer;
+  background-color: #00539f;
+  color: white;
+  margin: 10px 450px 10px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
