@@ -1,5 +1,7 @@
 # 📝 My Personal Blog
 
+[Read in Chinese](./docs/README_zh.md)
+
 Welcome to my personal website! This is a digital space where I share my work, thoughts, and journey. The entire project is hosted on GitHub Pages.
 
 ## 🚀 Project Overview
@@ -8,19 +10,19 @@ This project is a personal blog system built with fundamental web technologies. 
 
 ### ✨ Features
 
--   **✍️ Blog Posts:** A simple and clean layout for blog articles.
--   **🎨 Interactive Elements:** Includes fun features like image switching and a to-do list.
--   **👋 User Personalization:** Greets users with a personalized message.
--   **⚡️ Static Site:** Built for fast loading times and simple deployment.
+- **✍️ Blog Posts:** A simple and clean layout for blog articles.
+- **🎨 Interactive Elements:** Includes fun features like image switching and a to-do list.
+- **👋 User Personalization:** Greets users with a personalized message.
+- **⚡️ Static Site:** Built for fast loading times and simple deployment.
 
 ### 🛠️ Tech Stack
 
--   **Frontend:**
-    -   HTML5
-    -   CSS3
-    -   Vanilla JavaScript (ES6+)
--   **Deployment:**
-    -   GitHub Pages
+- **Frontend:**
+  - HTML5
+  - CSS3
+  - Vanilla JavaScript (ES6+)
+- **Deployment:**
+  - GitHub Pages
 
 ### 📂 Project Structure
 
@@ -49,7 +51,7 @@ This project is a personal blog system built with fundamental web technologies. 
     cd your-repository
     ```
 3.  **Open `index.html` in your browser:**
-    -   You can simply open the `index.html` file directly in your web browser to view the site.
+    - You can simply open the `index.html` file directly in your web browser to view the site.
 
 ### 🚀 Deployment
 
@@ -62,10 +64,10 @@ This project is deployed using GitHub Pages. To deploy your own version:
 
 ### 📅 Future Plans
 
--   [ ] ✍️ Add more blog posts.
--   [ ] 🌙 Implement a dark mode toggle.
--   [ ] 📧 Add a contact form.
--   [ ] ✨ Improve the styling and layout.
+- [ ] ✍️ Add more blog posts.
+- [ ] 🌙 Implement a dark mode toggle.
+- [ ] 📧 Add a contact form.
+- [ ] ✨ Improve the styling and layout.
 
 ### 🤝 Contributing
 
