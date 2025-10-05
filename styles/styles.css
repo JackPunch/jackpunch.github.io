@@ -1,9 +1,11 @@
 html {
-  font-family: "Roboto", sans-serif;
+  /* 字体设置 */
+  font-family: "Noto Sans SC", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
+}
+html {
   background-color: #00539f;
 }
 body {
