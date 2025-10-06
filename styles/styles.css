@@ -9,49 +9,9 @@ html {
   background-color: #00539f;
 }
 body {
-  width: 600px;
+  width: 80%;
   margin: 100px auto;
   background-color: #ff9500;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
-}
-h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #00539f;
-  text-shadow: 3px 3px 1px black;
-  font-size: 60px;
-  text-align: center;
-}
-img {
-  margin: 0 auto;
-  display: block;
-  max-width: 100%;
-}
-figcaption {
-  font-style: italic;
-  text-align: center;
-}
-.done {
-  color: rgb(17, 30, 17);
-  text-decoration: line-through solid black 2px;
-}
-li {
-  cursor: pointer;
-  background-color: #00539f;
-  color: white;
-  margin: 10px 450px 10px 0;
-  padding: 5px 10px;
-  border-radius: 5px;
-  border: 2px solid black;
-}
-img:hover {
-  cursor: pointer;
-}
-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: 2px solid black;
 }

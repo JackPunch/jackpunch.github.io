@@ -19,43 +19,65 @@
     />
 
     <!-- 以下是标题设置 -->
-    <title>My Blog</title>
+    <title>JackPunch's Personal Website</title>
     <!-- 以下是图标设置 -->
     <link rel="icon" href="images/owl.png" type="image/png" />
     <!-- 以下是作者和描述信息 -->
     <meta name="author" content="JackPunch" />
-    <meta name="description" content="A blog about life and stuff" />
+    <meta
+      name="description"
+      content="JackPunch's first personal website, built with HTML, CSS, and JavaScript."
+    />
   </head>
 
   <body>
     <header>
-      <h1>My Blog</h1>
+      <div id="logo">
+        <h1><a href="#banner">JackPunch</a></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#banner">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#content">Content</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <section>
-        <h2>Blog Post 1</h2>
-        <p>This is the content of the first blog post.</p>
+      <section id="banner">
+        <h2>Welcome to My Personal Website</h2>
+        <p>
+          This is a personal website created using HTML, CSS, and JavaScript,
+          showcasing my learning journey and projects.
+        </p>
       </section>
-      <figure>
-        <img src="images/flower.jpg" alt="A flower" />
-        <figcaption>A beautiful flower</figcaption>
-      </figure>
-      <section>
-        <h2>Blog Post 2</h2>
-        <p>This is the content of the second blog post.</p>
+      <section id="features">
+        <h2>Features</h2>
+        <div class="feature-item">
+          <h3>Responsive Design</h3>
+          <p>
+            The website is designed to be responsive and compatible with various
+            devices.
+          </p>
+        </div>
+        <div class="feature-item">
+          <h3>Modern Technologies</h3>
+          <p>
+            Built with modern web technologies such as HTML5, CSS3, and ES6.
+          </p>
+        </div>
       </section>
-      <section>
-        <p>Instructions for life:</p>
-        <ul>
-          <li>Eat</li>
-          <li>Sleep</li>
-          <li>Repeat</li>
-        </ul>
+      <section id="content">
+        <h2>Content</h2>
+        <p>
+          I have written several articles on various topics, including web
+          development, programming, and personal experiences. You can find them
+          on my <a href="https://jackpunch.github.io/">blog</a>.
+        </p>
       </section>
     </main>
     <footer>
-      <p>&copy; 2023 My Blog</p>
+      <p>&copy; 2025 JackPunch. All rights reserved.</p>
     </footer>
-    <button>Change user</button>
   </body>
 </html>
