@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  width: 80%;
+  max-width: 60%;
   margin: 1rem auto;
 }
 
@@ -51,7 +51,6 @@ header {
   width: 15rem;
   background-color: #ff4486;
   background-clip: padding-box;
-  border: 0.2rem solid transparent;
   border-radius: 1rem;
   display: flex;
   justify-content: center;
@@ -59,7 +58,7 @@ header {
 }
 
 .logo:hover {
-  border-color: #ff4486;
+  box-shadow: 0 0 0 0.2rem #ff4486;
 }
 
 .logo h1 {
@@ -97,6 +96,12 @@ nav {
   border-radius: 0.5rem;
   width: 100%;
   text-align: center;
+}
+
+.nav-button:not(.active):hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5rem;
+  text-underline-offset: 0.5rem;
 }
 
 .nav-button.active {
