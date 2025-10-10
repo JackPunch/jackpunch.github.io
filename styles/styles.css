@@ -17,8 +17,6 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  margin: inherit;
-  padding: inherit;
 }
 
 body {
@@ -49,11 +47,15 @@ header {
 }
 
 .logo {
+  height: 6rem;
+  width: 15rem;
   background-color: #ff4486;
-  padding: 0.5rem;
   background-clip: padding-box;
   border: 0.2rem solid transparent;
   border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo:hover {
@@ -61,13 +63,13 @@ header {
 }
 
 .logo h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #fff;
 }
 
 nav {
-  width: 60%;
+  width: 40%;
   height: 100%;
   display: flex;
   align-items: flex-end;
@@ -78,13 +80,13 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   /* 水平居中（沿行轴） */
-  gap: 0.5rem;
+  gap: 2rem;
   justify-items: stretch;
   /* 垂直居中（沿列轴） */
   align-items: center;
   list-style: none;
   width: 100%;
-  height: 60%;
+  height: 40%;
   padding-bottom: 0;
 }
 
@@ -95,10 +97,6 @@ nav {
   border-radius: 0.5rem;
   width: 100%;
   text-align: center;
-}
-
-.nav-button:hover {
-  background-color: #fff;
 }
 
 .nav-button.active {
