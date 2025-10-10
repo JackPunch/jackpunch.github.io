@@ -4,14 +4,104 @@ html {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: #333;
+  /* 背景色设置 */
+  background-color: #f5f5f5;
+  /* 盒模型设置 */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-html {
-  background-color: #00539f;
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: inherit;
+  padding: inherit;
 }
+
 body {
   width: 80%;
-  margin: 100px auto;
-  background-color: #ff9500;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  margin: 1rem auto;
+}
+
+header {
+  width: 100%;
+  height: 5rem;
+  margin: 0 0 2rem 0;
+}
+
+.header-contener {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-link {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+.logo {
+  background-color: #ff4486;
+  padding: 0.5rem;
+  background-clip: padding-box;
+  border: 0.2rem solid transparent;
+  border-radius: 1rem;
+}
+
+.logo:hover {
+  border-color: #ff4486;
+}
+
+.logo h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 0.3rem;
+}
+
+.nav-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 水平居中（沿行轴） */
+  gap: 0.5rem;
+  justify-items: stretch;
+  /* 垂直居中（沿列轴） */
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  height: 60%;
+  padding-bottom: 0;
+}
+
+.nav-button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-button:hover {
+  background-color: #fff;
+}
+
+.nav-button.active {
+  color: #fff;
+  background-color: #333;
 }
