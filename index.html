@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- 以下是样式表导入 -->
-    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="/styles/styles.css" rel="stylesheet" />
 
     <!-- 以下是脚本导入 -->
-    <script async src="scripts/main.js"></script>
+    <script async src="/scripts/main.js"></script>
 
     <!-- 以下是字体导入 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,7 +21,7 @@
     <!-- 以下是标题设置 -->
     <title>JackPunch</title>
     <!-- 以下是图标设置 -->
-    <link rel="icon" href="images/owl.png" type="image/png" />
+    <link rel="icon" href="/images/owl.png" type="image/png" />
     <!-- 以下是作者和描述信息 -->
     <meta name="author" content="JackPunch" />
     <meta
@@ -32,37 +32,25 @@
 
   <body>
     <header>
-      <div class="header-contener">
-        <a class="nav-link" href="index.html">
-          <div class="logo">
-            <h1>JackPunch</h1>
-          </div>
-        </a>
-        <nav>
-          <ul class="nav-list">
-            <li>
-              <a class="nav-link" href="index.html"
-                ><div class="nav-button active">Home</div></a
-              >
-            </li>
-            <li>
-              <a class="nav-link" href="pages/page1.html"
-                ><div class="nav-button">page1</div></a
-              >
-            </li>
-            <li>
-              <a class="nav-link" href="pages/page2.html"
-                ><div class="nav-button">page2</div></a
-              >
-            </li>
-            <li>
-              <a class="nav-link" href="pages/about.html"
-                ><div class="nav-button">About</div></a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <h1 class="logo">
+        <a class="logo-link" href="/index.html">JackPunch</a>
+      </h1>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/page1.html">page1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/page2.html">page2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/about.html">About</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section id="banner">
