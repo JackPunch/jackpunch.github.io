@@ -9,15 +9,15 @@ title = "JackPunck 的博客"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "img/logo.png"
-  secondaryLogo = "img/secondary-logo.png"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
   description = "欢迎来到我的博客！在这里，我将分享我的编程和技术知识，以及我的个人经历和见解。希望你能在这里找到有价值的内容，并与我一起成长！"
   copyright = "© 2026 JackPunch 版权所有 | 未经授权禁止转载"
 
 [params.author]
   name = "JackPunch"
   email = "jackpunch@163.com"
-  image = "img/blowfish_logo.png"
+  image = "img/saki.jpg"
   imageQuality = 96
   headline = "欢迎来到我的博客！"
   bio = "一名热爱编程和技术的博客作者，喜欢分享我的知识和经验。"
