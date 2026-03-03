@@ -1,7 +1,5 @@
 ---
-title: "博客"
-description: "我的博客文章。"
-cascade:
-  showReadingTime: true
+title: "欢迎来到 JackPunch 的博客！"
+description: "这是博客的主页面，包含了我写的文章。"
 ---
-这里包含了我所有文章。
+欢迎来到我的网站！我很高兴你的来访。

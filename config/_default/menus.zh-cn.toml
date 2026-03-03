@@ -16,6 +16,11 @@
  weight = 10
 
 [[main]]
+ name = "面试秘籍"
+ pageRef = "interview"
+ weight = 10
+
+[[main]]
  pre = "github"
  name = "GitHub"
  url = "https://github.com/JackPunch/jackpunch.github.io"
